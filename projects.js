@@ -10,10 +10,23 @@ const projects = [
     }
 ]
 
-const printToDom = () => {
-
+const printToDom = (divId, textToPrint) => {
+    const selctedDiv = document.getElementById(divId);
+    selctedDiv.innerHTML = textToPrint;
 }
 
 const createProjectCards = () => {
-    
+    let domString = "";
+    for (let i = 0; i < projects.length; i++) {
+        domString += `<div>`;
+        domString += `<header>`;
+        domString += `<title>${projects[i].title}</title>`;
+        domString += `</header>`;
+
+
+        domString += `</div>`
+    }
+    printToDom('projects' domString);
 }
+
+createProjectCards();
