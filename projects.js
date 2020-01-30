@@ -19,14 +19,25 @@ const createProjectCards = () => {
     let domString = "";
     for (let i = 0; i < projects.length; i++) {
         domString += `<div>`;
-        domString += `<header>`;
-        domString += `<title>${projects[i].title}</title>`;
-        domString += `</header>`;
-
-
+        domString +=  `<header>`;
+        domString +=    `<h1>${projects[i].title}</h1>`;
+        domString +=  `</header>`;
+        domString +=  `<img src="${projects[i].screenshot}"/>`;
+        domString +=  `<div>`;
+        domString +=     `<p>${projects[i].technologiesUsed}</p>`;
+        domString +=     `<p>${projects[i].available}</p>`;
+        domString +=     `<a href="${projects[i].url}">Link to Project</a>`;
+        domString +=     `<br>`;
+        domString +=     `<a href="${projects[i].githuburl}">Link to GitHub</a>`; 
+        domString +=  `</div>`;   
         domString += `</div>`
     }
-    printToDom('projects' domString);
+    printToDom('projectsToDom', domString);
 }
 
-createProjectCards();
+
+const init = () => {
+    createProjectCards();    
+}
+
+init();
