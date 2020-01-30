@@ -4,11 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Beth's Classwork</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Personal Site</h1>
+    <!-- Navigation -->
+  <nav class="d-inline-flex">
+    <ul id="navLinks" class="nav">
+      <h1 class="name">Beth Nielsen</h1>
+      <li class="nav-item">
+        <a id="navToBio" class="nav-link active">Bio</a>
+      </li>
+      <li class="nav-item">
+        <a id="navToTechnologies" class="nav-link">Technologies</a>
+      </li>
+      <li class="nav-item">
+        <a id="navToProjects" class="nav-link">Projects</a>
+      </li>
+    </ul>
+  </nav>
+    <!-- End Navigation -->
+
+  <!-- Primary View -->
+  <div class="fullPage" id="bioPage">
+    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+    <p class="bioInfo">Hello! My name is Beth and I am currently in e-cohort 11 at Nashville Software School.  During the day, I am an Ophthalmic Technician. What I enjoy about development is when I am able solve a problem and learn something new in the process.</p>
+  </div>
+  <div class="fullPage" id="technologiesPage">
+    <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+    <ul class="thingsLearned">
+        <li>JavaScript</li>
+        <li>CSS and HTML</li>
+    </ul>
+  </div>
+  <div class="fullPage" id="projectsPage"></div>
+  <!-- End Primary View -->
+  <div id="projectsToDom"></div>
+  <!-- Footer -->
+  <footer class="page-footer">
+    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+    bethhnielsen56@gmail.com || https://github.com/bethh56
+  </footer>
+  
+
+    <script src="./projects.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>
