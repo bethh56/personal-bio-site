@@ -11,18 +11,20 @@
 </head>
 <body>
     <!-- Navigation -->
-  <nav class="d-inline-flex">
+  <nav class="d-inline-flex w-100 text-white p-2">
     <ul id="navLinks" class="nav">
-      <h1 class="name">Beth Nielsen</h1>
-      <li class="nav-item">
-        <a id="navToBio" class="nav-link active">Bio</a>
-      </li>
-      <li class="nav-item">
-        <a id="navToTechnologies" class="nav-link">Technologies</a>
-      </li>
-      <li class="nav-item">
-        <a id="navToProjects" class="nav-link">Projects</a>
-      </li>
+      <h1 class="name pl-3">Beth Nielsen</h1>
+      <div class= " d-inline-flex pt-2">
+        <li class="nav-item">
+          <a id="navToBio" class="nav-link active">Bio</a>
+        </li>
+        <li class="nav-item">
+          <a id="navToTechnologies" class="nav-link">Technologies</a>
+        </li>
+        <li class="nav-item">
+          <a id="navToProjects" class="nav-link">Projects</a>
+        </li>
+      </div>
     </ul>
   </nav>
     <!-- End Navigation -->
@@ -30,13 +32,16 @@
   <!-- Primary View -->
   <div class="fullPage" id="bioPage">
     <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-    <p class="bioInfo">Hello! My name is Beth and I am currently in e-cohort 11 at Nashville Software School.  During the day, I am an Ophthalmic Technician. What I enjoy about development is when I am able solve a problem and learn something new in the process.</p>
+    <h3 class= "text-center m-3 pt-2">About Me</h3>
+    <p class="bioInfo mx-3 px-2">Hello! My name is Beth. In my evenings, I am learning how to code at Nashville SoftWare School. During the day, I am an Ophthalmic Technician. <br> What I enjoy about development is when I am able solve a problem and learn something new in the process.</p>
   </div>
   <div class="fullPage" id="technologiesPage">
     <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+    <h4>Things I've Learned</h4>
     <ul class="thingsLearned">
         <li>JavaScript</li>
         <li>CSS and HTML</li>
+        <li>BootStrap</li>
     </ul>
   </div>
   <div class="fullPage" id="projectsPage"></div>
@@ -44,8 +49,9 @@
   <div id="projectsToDom"></div>
   <!-- Footer -->
   <footer class="page-footer">
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-    bethhnielsen56@gmail.com || https://github.com/bethh56
+    <div class="footer w-100 text-center text-white py-2">
+      <a href= "https://github.com/bethh56" class="text-white p-2">GitHub</a> || <a href="mailto:bethhnielsen56@gmail.com" class="text-white p-2">bethhnielsen56@gmail.com</a>
+    </div>
   </footer>
   
 
