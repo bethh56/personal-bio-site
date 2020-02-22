@@ -18,7 +18,7 @@ const printToDom = (divId, textToPrint) => {
 const createProjectCards = () => {
     let domString = "";
     for (let i = 0; i < projects.length; i++) {
-        domString += `<div>`;
+        domString += `<div class="card mx-auto w-75 text-body" id=projectCard>`;
         domString +=  `<header>`;
         domString +=    `<h1>${projects[i].title}</h1>`;
         domString +=  `</header>`;
