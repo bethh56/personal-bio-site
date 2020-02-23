@@ -4,11 +4,13 @@ body {
 
 nav {
     background-color:  #8590AA;
+    border-bottom: solid #3B8BEB 3px;
 }
 
 
 footer {
     background-color: #8590AA;
+    border-top: solid #3B8BEB 3px;
   }
 
 #projectCard {
