@@ -1,10 +1,16 @@
 ## Personal Bio Page
 
-### Description
-#### 
+## Description 
+The page is a personal bio site of the developer who made it.  
+- Displays interests and an about me of the the developer.
+-  Displays information about what the developer has learned.  
+- Displays projects made by the developer that the user is able to see and view in Github.  
+- Contains contact information in footer so user may get in contact with developer. 
+
+
 
 ## Screen Shots
-![image](screenshot(10).png)
+![image]("")
 
 
 ## How to Run
