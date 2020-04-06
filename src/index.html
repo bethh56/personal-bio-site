@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Beth's Classwork</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 </head>
 <body class= "pb-3 mb-3">
     <!-- Navigation -->
   <nav class="d-inline-flex w-100 text-white p-2">
-    <ul id="navLinks" class="nav">
-      <h1 class="name pl-3">Beth Nielsen</h1>
+    <h1 class="name pl-3">Beth Nielsen</h1>
+    <ul id="navLinks" class="nav ml-auto">
       <div class= " d-inline-flex pt-2">
         <li class="nav-item">
-          <a id="navToBio" class="nav-link active">Bio</a>
+          <a href="#bio" id="navToBio" class="nav-link active">Bio</a>
         </li>
         <li class="nav-item">
-          <a id="navToTechnologies" class="nav-link">Technologies</a>
+          <a href="#technologiesPage" id="navToTechnologies" class="nav-link">Technologies</a>
         </li>
         <li class="nav-item">
-          <a id="navToProjects" class="nav-link">Projects</a>
+          <a href="#projectsToDom" id="navToProjects" class="nav-link">Projects</a>
         </li>
       </div>
     </ul>
@@ -28,15 +30,21 @@
 
   <!-- Primary View -->
   <div class="fullPage" id="bioPage">
-    <h3 class= "text-center m-3 pt-2">About Me</h3>
-    <p class="bioInfo mx-3 px-2">Hello! My name is Beth. In my evenings, I am learning how to code at Nashville SoftWare School. During the day, I am an Ophthalmic Technician. <br> What I enjoy about development is when I am able solve a problem and learn something new in the process.</p>
+    <h3 id="bio" class= "text-center m-3 pt-2">About Me</h3>
+    <p class="bioInfo mx-5 px-2">Hello! My name is Beth. During the day, I am an Ophthalmic Technician. In my evenings, I am learning what it takes to be a software developer at Nashville Software School. <br><br> I didn’t know much about the world of software development but knew I wanted to find ways to further progress myself.  After exploring and talking with some friends in the field, I decided to take an introduction course into HTML, CSS, and JavaScript.  In such a short period of time, I felt like I learned and grew more than I thought was even possible!  I knew that this would be a career that would never bore me and constantly offer growth opportunities. <br><br> At this current point, I’m enjoying tackling my weekly assignments and seeing the progress I’ve made throughout the time I have been at Nashville Software School.  I find it very rewarding when I am able to solve a problem in my code and learn something new in the process.  I also find it rewarding to see my work come to life on a webpage.   
+      </p>
+    
   </div>
   <div class="fullPage" id="technologiesPage">
     <h4 class="ml-3">Things I've Learned</h4>
     <ul class="thingsLearned">
-        <li>JavaScript</li>
-        <li>CSS and HTML</li>
-        <li>BootStrap</li>
+        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+        <i class="devicon-css3-plain-wordmark colored"></i>
+        <i class="devicon-github-plain-wordmark colored"></i>
+        <i class="devicon-html5-plain-wordmark colored"></i>
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-jquery-plain-wordmark colored"></i>
+        <i class="devicon-sass-original colored"></i>
     </ul>
   </div>
   <div class="fullPage" id="projectsPage"></div>
@@ -45,7 +53,7 @@
   <div id="projectsToDom"></div>
 
   <!-- Footer -->
-  <footer class="page-footer fixed-bottom">
+  <footer class="page-footer fixed-bottom" id="addMomentTimeStamp">
     <div class="footer w-100 text-center text-white py-2">
       <a href= "https://github.com/bethh56" class="text-white p-2">GitHub</a> || <a href="mailto:bethhnielsen56@gmail.com" class="text-white p-2">bethhnielsen56@gmail.com</a>
     </div>
