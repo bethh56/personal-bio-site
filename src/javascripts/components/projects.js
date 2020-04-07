@@ -3,9 +3,9 @@ import utils from '../helpers/utils';
 
 const createProjectCards = () => {
   projectData.getProjects()
-    .then((projectInfo) => {
+    .then((projects) => {
       let domString = '';
-      projectInfo.forEach((projectCards) => {
+      projects.forEach((projectCards) => {
         if (projectCards.available === true) {
           domString += '<div class="card ml-3 mr-3 mb-4 text-body" id=projectCard>';
           domString += '<header>';
@@ -24,7 +24,7 @@ const createProjectCards = () => {
       });
       utils.printToDom('projectsToDom', domString);
     })
-    .catch((err) => ('get projects failed!', err));
+    .catch((err) => console.error('it is not working! neat.', err));
 };
 
 export default { createProjectCards };
