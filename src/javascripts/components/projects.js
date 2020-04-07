@@ -5,7 +5,8 @@ const createProjectCards = () => {
   projectData.getProjects()
     .then((projects) => {
       let domString = '';
-      projects.forEach((projectCards) => {
+      console.error(projects.data);
+      projects.data.forEach((projectCards) => {
         if (projectCards.available === true) {
           domString += '<div class="card ml-3 mr-3 mb-4 text-body" id=projectCard>';
           domString += '<header>';
