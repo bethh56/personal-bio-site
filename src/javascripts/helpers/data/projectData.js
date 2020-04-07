@@ -1,33 +1,21 @@
-const projects = [
-  {
-    title: 'Cool Project',
-    screenshot: 'http://gotoflashgames.com/files/file/033.jpg',
-    description: 'This is the best project',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: false,
-    url: 'https://github.com/bethh56',
-    githubUrl: 'https://github.com/bethh56',
-  },
-  {
-    title: 'Cool Project',
-    screenshot: 'http://gotoflashgames.com/files/file/033.jpg',
-    description: 'This is the best project',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: true,
-    url: 'https://github.com/bethh56',
-    githubUrl: 'https://github.com/bethh56',
-  },
-  {
-    title: 'Cool Project',
-    screenshot: 'http://gotoflashgames.com/files/file/033.jpg',
-    description: 'This is the best project',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: false,
-    url: 'https://github.com/bethh56',
-    githubUrl: 'https://github.com/bethh56',
-  },
-];
+import axios from 'axios';
+import apiKeys from '../apiKeys.json';
 
-const getProjects = () => projects;
+const baseURL = apiKeys.firebaseKeys.databaseURL;
+
+const getProjects = () => new Promise((resolve, reject) => {
+  axios.get(`${baseURL}/projects.json`)
+    .then((responce) => {
+      const allProjects = responce.data;
+      const projects = [];
+      Object.keys(allProjects).forEach((projectId) => {
+        allProjects[projectId].id = projectId;
+        projects.push(allProjects[projectId]);
+      });
+      resolve(projects);
+    })
+    .catch((err) => reject(err));
+});
+
 
 export default { getProjects };
