@@ -1,15 +1,23 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
-
+ body {
+    background-color: lightgray;
+ }
 
 .jumbotron {
     background-image: url(https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     height: 500px;
-}
+    .insideJumbotron {
+        background-color: lightgray;
+        opacity: 0.8;
+    }
+}    
+
 
 nav {
     background-color:  black;
     border-bottom: solid white 3px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -20,7 +28,6 @@ footer {
 
 #projectCard {
     border: solid black 2.5px;
-    background-color: lightgray;
 }
 
 #headshot {
