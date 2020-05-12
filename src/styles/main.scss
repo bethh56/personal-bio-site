@@ -1,24 +1,26 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/spikes.png");
+
+.jumbotron {
+    background-image: url(https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 500px;
 }
 
 nav {
-    background-color:  #8590AA;
-    border-bottom: solid #3B8BEB 3px;
+    background-color:  black;
+    border-bottom: solid white 3px;
 }
 
 
 footer {
-    background-color: #8590AA;
-    border-top: solid #3B8BEB 3px;
+    background-color: black;
+    border-top: solid white 3px;
   }
 
 #projectCard {
-    border: solid #C4DBF6 2.5px;
-    background-color: whitesmoke;
+    border: solid black 2.5px;
+    background-color: lightgray;
 }
 
 #headshot {
@@ -46,11 +48,3 @@ footer {
 #navName {
     color: whitesmoke;
 }
-
-   /* Colors Used
-    #8590AA -dark gray
-    #B23850 -berry
-    #3B8BEB -blue
-    whitesmoke -white gray?
-    #C4DBF6 -light blue
-   */ 
