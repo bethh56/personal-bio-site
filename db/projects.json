@@ -1,29 +1,47 @@
 {
 	"project1": {
-		"title": "Bear Watcher",
-		"screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+		"title": "Sorting Hat",
+		"screenshot": "",
 		"description": "This is the best project",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
 		"available": true,
-		"url": "https://github.com/bethh56",
-		"githubUrl": "https://github.com/bethh56"
+		"url": "",
+		"githubUrl": "https://github.com/bethh56/sorting-hat"
 	},
 	"project2": {
-		"title": "Tamagotchi",
-		"screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+		"title": "Bear Watcher",
+		"screenshot": "",
 		"description": "This is the best project",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
 		"available": true,
 		"url": "https://github.com/bethh56",
-		"githubUrl": "https://github.com/bethh56"
+		"githubUrl": "https://github.com/bethh56/bear-watcher"
 	},
 	"project3": {
-		"title": "Cool Project",
-		"screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+		"title": "Tamagotchi",
+		"screenshot": "",
 		"description": "This is the best project",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
 		"available": true,
-		"url": "https://github.com/bethh56",
-		"githubUrl": "https://github.com/bethh56"
+		"url": "",
+		"githubUrl": "https://github.com/bethh56/tamagotchi"
+	},
+	"project4": {
+		"title": "Renaissance Faire",
+		"screenshot": "",
+		"description": "This project was done as a group using CRUD to view everything avaliable at a Renaissance Faire",
+		"technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
+		"available": true,
+		"url": "",
+		"githubUrl": "https://github.com/bethh56/nutshell-sithlords"
+	},
+	"project5": {
+		"title": "Mushroom Picker",
+		"screenshot": "",
+		"description": "",
+		"technologiesUsed": "React, Bootstrap, Version Control with Github",
+		"available": true,
+		"url": "",
+		"githubUrl": "https://github.com/bethh56/mushroom-picker"
 	}
 }
