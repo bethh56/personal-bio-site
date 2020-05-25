@@ -1,31 +1,61 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+ body {
+    background-color: lightgray;
+ }
 
-body {
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/spikes.png");
-}
+.jumbotron {
+    background-image: url(https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 83vh;
+    .insideJumbotron {
+        background-color: rgba(000, 000, 000, 0.4);
+        color: whitesmoke;
+        width: 80vw;
+        border-radius: 15px;
+    }
+}    
+
 
 nav {
-    background-color:  #8590AA;
-    border-bottom: solid #3B8BEB 3px;
+    background-color:  black;
+    border-bottom: solid white 3px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 footer {
-    background-color: #8590AA;
-    border-top: solid #3B8BEB 3px;
+    background-color: black;
+    border-top: solid white 3px;
   }
 
 #projectCard {
-    border: solid #C4DBF6 2.5px;
-    background-color: whitesmoke;
+    border: solid black 2.5px;
 }
 
+#headshot {
+    width: 300px;
+}
 
-   /* Colors Used
-    #8590AA -dark gray
-    #B23850 -berry
-    #3B8BEB -blue
-    whitesmoke -white gray?
-    #C4DBF6 -light blue
-   */ 
+#aboutMeSection {
+    display: flex;
+    background-color: whitesmoke;
+    border: solid #C4DBF6 2.5px;
+}
+
+#navToBio {
+    color: whitesmoke;
+}
+
+#navToTechnologies {
+    color: whitesmoke;
+}
+
+#navToProjects {
+    color: whitesmoke;
+}
+
+#navName {
+    color: whitesmoke;
+}
