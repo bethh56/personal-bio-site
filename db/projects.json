@@ -18,15 +18,6 @@
 		"githubUrl": "https://github.com/bethh56/bear-watcher"
 	},
 	"project3": {
-		"title": "Tamagotchi",
-		"screenshot": "",
-		"description": "This is the best project",
-		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-		"available": true,
-		"url": "",
-		"githubUrl": "https://github.com/bethh56/tamagotchi"
-	},
-	"project4": {
 		"title": "Renaissance Faire",
 		"screenshot": "",
 		"description": "This project was done as a group using CRUD to view everything avaliable at a Renaissance Faire",
@@ -35,7 +26,7 @@
 		"url": "",
 		"githubUrl": "https://github.com/bethh56/nutshell-sithlords"
 	},
-	"project5": {
+	"project4": {
 		"title": "Mushroom Picker",
 		"screenshot": "",
 		"description": "",
@@ -43,5 +34,14 @@
 		"available": true,
 		"url": "",
 		"githubUrl": "https://github.com/bethh56/mushroom-picker"
+	},
+	"project5": {
+		"title": "Sports Roster",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/sports-roster/master/screenshots/sportsRosterLoggedInView.JPG",
+		"description": "This is my first project with React using full CRUD with Firebase",
+		"technologiesUsed": "React, BootStrap, SCSS and Version Control with Github",
+		"available": true,
+		"url": "https://react-sportsroster.web.app/",
+		"githubUrl": "https://github.com/bethh56/nutshell-sithlords"
 	}
 }
