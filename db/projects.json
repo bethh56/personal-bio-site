@@ -10,11 +10,11 @@
 	},
 	"project2": {
 		"title": "Bear Watcher",
-		"screenshot": "",
-		"description": "This is the best project",
-		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/bear-watcher/master/screenshots/Screenshot%20(20).png",
+		"description": "This project is my first project using modules.",
+		"technologiesUsed": "HTML, Vanilla JavaScript, Bootstrap, Jquery, and Version Control with Github",
 		"available": true,
-		"url": "https://github.com/bethh56",
+		"url": "https://bear-watcher-8324e.web.app/",
 		"githubUrl": "https://github.com/bethh56/bear-watcher"
 	},
 	"project3": {
@@ -30,7 +30,7 @@
 		"title": "Mushroom Picker",
 		"screenshot": "",
 		"description": "",
-		"technologiesUsed": "React, Bootstrap, Version Control with Github",
+		"technologiesUsed": "React, Bootstrap, SCSS, and Version Control with Github",
 		"available": true,
 		"url": "",
 		"githubUrl": "https://github.com/bethh56/mushroom-picker"
