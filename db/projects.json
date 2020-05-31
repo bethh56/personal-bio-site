@@ -19,20 +19,20 @@
 	},
 	"project3": {
 		"title": "Renaissance Faire",
-		"screenshot": "",
+		"screenshot": "not avaliable yet",
 		"description": "This project was done as a group using CRUD to view everything avaliable at a Renaissance Faire",
-		"technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
+		"technologiesUsed": "Webpack, SCSS, JavaScript, Firebase, and Version Control with Github",
 		"available": true,
-		"url": "",
+		"url": "https://nutshell-sithlords.web.app/",
 		"githubUrl": "https://github.com/bethh56/nutshell-sithlords"
 	},
 	"project4": {
 		"title": "Mushroom Picker",
-		"screenshot": "",
-		"description": "",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/mushroom-picker/master/screenshots/Capture.JPG",
+		"description": "This was my first project using React",
 		"technologiesUsed": "React, Bootstrap, SCSS, and Version Control with Github",
 		"available": true,
-		"url": "",
+		"url": "https://mushroompicker-e6265.web.app/",
 		"githubUrl": "https://github.com/bethh56/mushroom-picker"
 	},
 	"project5": {
