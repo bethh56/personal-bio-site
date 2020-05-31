@@ -1,11 +1,11 @@
 {
 	"project1": {
 		"title": "Sorting Hat",
-		"screenshot": "",
-		"description": "This is the best project",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/sorting-hat/master/screenshots/sortingHat2.JPG",
+		"description": "This project lets you enter your name into a form and get sorted into a Hogwarts House. ",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
 		"available": true,
-		"url": "",
+		"url": "https://sortinghat-5f2bf.web.app/",
 		"githubUrl": "https://github.com/bethh56/sorting-hat"
 	},
 	"project2": {
