@@ -1,47 +1,47 @@
 {
 	"project1": {
 		"title": "Sorting Hat",
-		"screenshot": "",
-		"description": "This is the best project",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/sorting-hat/master/screenshots/sortingHat2.JPG",
+		"description": "This project lets you enter your name into a form and get sorted into a Hogwarts House. ",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
 		"available": true,
-		"url": "",
+		"url": "https://sortinghat-5f2bf.web.app/",
 		"githubUrl": "https://github.com/bethh56/sorting-hat"
 	},
 	"project2": {
 		"title": "Bear Watcher",
-		"screenshot": "",
-		"description": "This is the best project",
-		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/bear-watcher/master/screenshots/Screenshot%20(20).png",
+		"description": "This project is my first project using modules.",
+		"technologiesUsed": "HTML, Vanilla JavaScript, Bootstrap, Jquery, and Version Control with Github",
 		"available": true,
-		"url": "https://github.com/bethh56",
+		"url": "https://bear-watcher-8324e.web.app/",
 		"githubUrl": "https://github.com/bethh56/bear-watcher"
 	},
 	"project3": {
-		"title": "Tamagotchi",
-		"screenshot": "",
-		"description": "This is the best project",
-		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-		"available": true,
-		"url": "",
-		"githubUrl": "https://github.com/bethh56/tamagotchi"
-	},
-	"project4": {
 		"title": "Renaissance Faire",
-		"screenshot": "",
+		"screenshot": "not avaliable yet",
 		"description": "This project was done as a group using CRUD to view everything avaliable at a Renaissance Faire",
-		"technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
+		"technologiesUsed": "Webpack, SCSS, JavaScript, Firebase, and Version Control with Github",
 		"available": true,
-		"url": "",
+		"url": "https://nutshell-sithlords.web.app/",
 		"githubUrl": "https://github.com/bethh56/nutshell-sithlords"
 	},
-	"project5": {
+	"project4": {
 		"title": "Mushroom Picker",
-		"screenshot": "",
-		"description": "",
-		"technologiesUsed": "React, Bootstrap, Version Control with Github",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/mushroom-picker/master/screenshots/Capture.JPG",
+		"description": "This was my first project using React",
+		"technologiesUsed": "React, Bootstrap, SCSS, and Version Control with Github",
 		"available": true,
-		"url": "",
+		"url": "https://mushroompicker-e6265.web.app/",
 		"githubUrl": "https://github.com/bethh56/mushroom-picker"
+	},
+	"project5": {
+		"title": "Sports Roster",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/sports-roster/master/screenshots/sportsRosterLoggedInView.JPG",
+		"description": "This is my first project with React using full CRUD with Firebase",
+		"technologiesUsed": "React, BootStrap, SCSS and Version Control with Github",
+		"available": true,
+		"url": "https://react-sportsroster.web.app/",
+		"githubUrl": "https://github.com/bethh56/nutshell-sithlords"
 	}
 }
