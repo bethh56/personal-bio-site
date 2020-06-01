@@ -2,6 +2,7 @@ import projects from './components/projects';
 import '../styles/main.scss';
 import utils from './helpers/utils';
 
+
 const addDateToFooter = () => {
   const date = new Date().getFullYear();
   let domString = '';

@@ -8,11 +8,11 @@ const createProjectCards = () => {
       console.error(projects.data);
       projects.forEach((projectCards) => {
         if (projectCards.available === true) {
-          domString += '<div class="card ml-3 mr-3 mb-4 text-body" id=projectCard>';
-          domString += '<header>';
-          domString += `<h1>${projectCards.title}</h1>`;
-          domString += '</header>';
+          domString += '<div class="projectCard col-4" id=projectCard>';
           domString += `<img src="${projectCards.screenshot}"/>`;
+          domString += '<header>';
+          domString += `<h4>${projectCards.title}</h4>`;
+          domString += '</header>';
           domString += '<div>';
           domString += `<p>${projectCards.technologiesUsed}</p>`;
           domString += `<div class="${projectCards.available}"></div>`;
