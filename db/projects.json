@@ -19,7 +19,7 @@
 	},
 	"project3": {
 		"title": "Renaissance Faire",
-		"screenshot": "not avaliable yet",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/personal-bio-site/master/screenshots/ren%20faire.JPG",
 		"description": "This project was done as a group using CRUD to view everything avaliable at a Renaissance Faire",
 		"technologiesUsed": "Webpack, SCSS, JavaScript, Firebase, and Version Control with Github",
 		"available": true,
