@@ -2,21 +2,12 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
  body {
     background-color: lightgray;
- }
-
-.jumbotron {
     background-image: url(https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 83vh;
-    .insideJumbotron {
-        background-color: rgba(000, 000, 000, 0.4);
-        color: whitesmoke;
-        width: 80vw;
-        border-radius: 15px;
-    }
-}    
-
+    background-position: center;
+    background-repeat: repeat;
+    height: 100%;
+    
+ } 
 
 nav {
     background-color:  black;
@@ -24,38 +15,52 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 
+.aboutMe {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    .aboutMeCard {
+        background-color:whitesmoke;
+        border: black solid 3px;
+    }
 
-footer {
+    .headshot {
+        padding-top: 7vh;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+}
+
+.technologiesPage {
+    border-top: solid black 3px;
+    margin: 35px;
+    padding: 20px;
+
+    .techLearned {
+        font-size: 55px;
+        margin: 9px;
+    }
+}
+
+
+.projectsAvaliable {
+    border-top: solid black 3px;
+    margin: 25px;
+    padding: 30px;
+
+    .projectCard {
+        background-color: whitesmoke;
+        border-radius: 2%;
+        margin: 5px;
+        text-align: center;
+        border: solid black 2.5px;
+       
+    }
+}
+
+.pageFooter {
     background-color: black;
     border-top: solid white 3px;
-  }
-
-#projectCard {
-    border: solid black 2.5px;
+    padding: 1px;
 }
 
-#headshot {
-    width: 300px;
-}
-
-#aboutMeSection {
-    display: flex;
-    background-color: whitesmoke;
-    border: solid #C4DBF6 2.5px;
-}
-
-#navToBio {
-    color: whitesmoke;
-}
-
-#navToTechnologies {
-    color: whitesmoke;
-}
-
-#navToProjects {
-    color: whitesmoke;
-}
-
-#navName {
-    color: whitesmoke;
-}
