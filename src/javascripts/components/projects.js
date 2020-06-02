@@ -13,7 +13,7 @@ const createProjectCards = () => {
           domString += `<h4>${projectCards.title}</h4>`;
           domString += '</header>';
           domString += '<div>';
-          domString += `<h6>${projectCards.description}</h6>`
+          domString += `<h6>${projectCards.description}</h6>`;
           domString += `<p>${projectCards.technologiesUsed}</p>`;
           domString += `<div class="${projectCards.available}"></div>`;
           domString += `<a class="text-dark" href="${projectCards.url}">View Project</a> || <a class="text-dark" href="${projectCards.githuburl}">View on GitHub <i class="fab fa-github"></i></a>`;
