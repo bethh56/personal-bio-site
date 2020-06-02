@@ -6,6 +6,7 @@
     background-position: center;
     background-repeat: repeat;
     height: 100%;
+    
  } 
 
 nav {
@@ -18,16 +19,16 @@ nav {
     margin-top: 80px;
     margin-bottom: 80px;
     
-    .headshot {
-    padding-top: 7vh;
-    padding-left: 15px;
-    padding-right: 15px;
-    }
-    
     .aboutMeCard {
         background-color:whitesmoke;
         border: black solid 3px;
     }
+
+    .headshot {
+        padding-top: 7vh;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
 }
 
 .technologiesPage {
@@ -42,21 +43,17 @@ nav {
 }
 
 
-#projectCard {
-    border: solid black 2.5px;
-}
-
-
 .projectsAvaliable {
     border-top: solid black 3px;
     margin: 25px;
     padding: 30px;
-    
+
     .projectCard {
         background-color: whitesmoke;
         border-radius: 2%;
         margin: 5px;
         text-align: center;
+        border: solid black 2.5px;
        
     }
 }
