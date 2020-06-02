@@ -34,52 +34,57 @@
       </div>
     </nav>
     <!-- End Navigation -->
-
-    <div class="jumbotron">
-      <div class="insideJumbotron">
-        <h1 class="display-4 col-7">Hello, My Name is Beth and I am a Full-Stack Developer</h1>
-      </div>
-    </div>
-
     
   <!-- Primary View -->
-  <div class="fullPage" id="bioPage">
-    <h3 id="bio" class= "text-center m-3 pt-2">About Me</h3>
-    <div id="aboutMeSection" class="ml-3 mr-3 mb-4 p-3">
-      <img src="https://raw.githubusercontent.com/bethh56/personal-bio-site/master/screenshots/headshot.jpg" class="rounded-circle" id="headshot" title="source: imgur.com" />
-      <p class="bioInfo mx-5 px-2">Hello! My name is Beth. During the day, I am an Ophthalmic Technician. In my evenings, I am learning what it takes to be a software developer at Nashville Software School. <br><br> I didn’t know much about the world of software development but knew I wanted to find ways to further progress myself.  After exploring and talking with some friends in the field, I decided to take an introduction course into HTML, CSS, and JavaScript.  In such a short period of time, I felt like I learned and grew more than I thought was even possible!  I knew that this would be a career that would never bore me and constantly offer growth opportunities. <br><br> At this current point, I’m enjoying tackling my weekly assignments and seeing the progress I’ve made throughout the time I have been at Nashville Software School.  I find it very rewarding when I am able to solve a problem in my code and learn something new in the process.  I also find it rewarding to see my work come to life on a webpage.   
-      </p>
+   <!-- Bio -->
+  <div id="bio" class="container-sm aboutMe">
+    <div class="card aboutMeCard">
+      <h3 class="mt-4 text-center">Hi, my name is Beth and I'm a Full-Stack Software Developer</h3>
+      <div class="row">
+        <div class="col-md-4">
+            <img src="https://raw.githubusercontent.com/bethh56/personal-bio-site/master/screenshots/headshot.jpg" class="img-fluid headshot">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p>Currently, I am an Ophthalmic Technician. In my evenings, I am learning the skills to be a software developer at Nashville Software School.<br><br>I didn’t know much about the world of software development but knew I wanted more challenges in my work.  After some exploring, I decided to take an intro course to learn more.  In such a short period of time, I felt like I learned more than I thought was even possible!  I knew that this would be a career that would give me many challenges. <br><br> During my time at NSS,  I am finding it very rewarding when I am able to solve a problem in my code and learn something new in the process as well as being able to see my work on a webpage. </p>
+          </div>
+        </div>
+        <!-- Tech -->
+        <div class="w-100 text-center">
+          <div  id="technologiesPage" class="technologiesPage">
+            <h3 class="m-4">Things I've Learned</h3>
+            <ul class="thingsLearned  m-2">
+                <i class="techLearned devicon-bootstrap-plain-wordmark colored"></i>
+                <i class="techLearned devicon-css3-plain-wordmark colored"></i>
+                <i class="techLearned devicon-github-plain-wordmark colored"></i>
+                <i class="techLearned devicon-html5-plain-wordmark colored"></i>
+                <i class="techLearned devicon-javascript-plain colored"></i>
+                <i class="techLearned devicon-jquery-plain-wordmark colored"></i>
+                <i class="techLearned devicon-sass-original colored"></i>
+                <i class="techLearned devicon-react-original-wordmark"></i>
+            </ul>
+          </div>
+        </div>
+      </div>
+       <!-- Projects -->
+      <div id="projectsAvaliable" class="projectsAvaliable">
+        <h3 class="text-center mb-4">Projects</h3>
+        <div id="projectsToDom" class="projectsToDom d-flex flex-wrap justify-content-around"></div>
+      </div>
+       <!-- Contact Info -->
+      <div class="contactMe text-center m-5">
+        <h3 id="contactMe">Contact Me </h3>
+        <a href="mailto:bethhnielsen56@gmail.com" class=" text-dark">bethhnielsen56@gmail.com</a> | cell: (615)-815-7625 | <a href="https://github.com/bethh56" class="text-dark p-2">Github <i class="fab fa-github"></i>
+        </a> | <a href="https://www.linkedin.com/in/bethnielsen01/" class="text-dark p-2">Linkedin <i class="fab fa-linkedin"></i></a>
+        </div>
     </div>
-    
   </div>
 
-  <div class="fullPage" id="technologiesPage">
-    <h3 class="ml-3 text-center">Things I've Learned</h3>
-    <ul class="thingsLearned text-center m-4">
-        <i class="techLearned devicon-bootstrap-plain-wordmark colored"></i>
-        <i class="techLearned devicon-css3-plain-wordmark colored"></i>
-        <i class="techLearned devicon-github-plain-wordmark colored"></i>
-        <i class="techLearned devicon-html5-plain-wordmark colored"></i>
-        <i class="techLearned devicon-javascript-plain colored"></i>
-        <i class="techLearned devicon-jquery-plain-wordmark colored"></i>
-        <i class="techLearned devicon-sass-original colored"></i>
-        <i class="techLearned devicon-react-original-wordmark"></i>
-    </ul>
-  </div>
 
   <!-- End Primary View -->
-  
-  <div id="projectsAvaliable">
-    <h3 class="text-center mb-4">Projects</h3>
-    <div id="projectsToDom" class="projectsToDom d-flex flex-wrap justify-content-center"></div>
-  </div>
+
   
 
-  <div class="contactMe text-center m-5">
-  <h3 id="contactMe">Contact Me </h3>
-  <a href="mailto:bethhnielsen56@gmail.com" class=" text-dark">bethhnielsen56@gmail.com</a> | cell: (615)-815-7625 | <a href="https://github.com/bethh56" class="text-dark p-2">Github <i class="fab fa-github"></i>
-  </a> | <a href="https://www.linkedin.com/in/bethnielsen01/" class="text-dark p-2">Linkedin <i class="fab fa-linkedin"></i></a>
-  </div>
 
   <!-- Footer -->
   <footer class="pageFooter page-footer fixed-bottom" id="addMomentTimeStamp"></footer>

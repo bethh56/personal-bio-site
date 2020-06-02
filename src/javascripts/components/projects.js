@@ -7,8 +7,8 @@ const createProjectCards = () => {
       let domString = '';
       projects.forEach((projectCards) => {
         if (projectCards.available === true) {
-          domString += '<div class="projectCard col-3" id=projectCard>';
-          domString += `<img src="${projectCards.screenshot}"/>`;
+          domString += '<div class="projectCard col-md-5" id=projectCard>';
+          domString += `<img class="card-img-top" src="${projectCards.screenshot}" alt="Card image cap">`;
           domString += '<header>';
           domString += `<h4>${projectCards.title}</h4>`;
           domString += '</header>';
