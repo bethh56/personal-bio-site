@@ -10,7 +10,7 @@ The page is a personal bio site of the developer who made it.
 
 
 ## Screen Shots
-![Screen Shot of Personal Bio](https://raw.githubusercontent.com/bethh56/personal-bio-site/master/screenshots/Screenshot%20(10).png)
+![Screen Shot of Personal Bio](https://raw.githubusercontent.com/bethh56/personal-bio-site/master/screenshots/personal.JPG)
 
 
 ## How to Run
