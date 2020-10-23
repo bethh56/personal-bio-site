@@ -1,7 +1,7 @@
 {
 	"project1": {
 		"title": "Top 100 Albums",
-		"screenshot": "https://raw.githubusercontent.com/bethh56/personal-bio-site/addCapstone/screenshots/Top100Albums.JPG",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/personal-bio-site/master/screenshots/Top100Albums.JPG",
 		"description": "This project will allow the user to login and keep track of albums they have listened to from the Rolling Stone Top 100 Albums of All Time.",
 		"technologiesUsed": "React, BootStrap, SCSS and Version Control with Github",
 		"available": true,
@@ -11,7 +11,7 @@
 	"project2": {
 		"title": "Sorting Hat",
 		"screenshot": "https://raw.githubusercontent.com/bethh56/sorting-hat/master/screenshots/sortingHat2.JPG",
-		"description": "This project lets you enter your name into a form and get sorted into a Hogwarts House. ",
+		"description": "This project lets the user enter their name into a form and get sorted into a Hogwarts House. ",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
 		"available": true,
 		"url": "https://sortinghat-5f2bf.web.app/",
