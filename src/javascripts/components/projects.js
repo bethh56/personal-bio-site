@@ -23,7 +23,7 @@ const createProjectCards = () => {
       });
       utils.printToDom('projectsToDom', domString);
     })
-    .catch((err) => console.error('it is not working! neat.', err));
+    .catch((err) => console.error('it is not working! Bummer!', err));
 };
 
 export default { createProjectCards };
