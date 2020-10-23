@@ -1,7 +1,7 @@
 {
 	"project1": {
 		"title": "Top 100 Albums",
-		"screenshot": "",
+		"screenshot": "https://raw.githubusercontent.com/bethh56/personal-bio-site/addCapstone/screenshots/Top100Albums.JPG",
 		"description": "This project will allow the user to login and keep track of albums they have listened to from the Rolling Stone Top 100 Albums of All Time.",
 		"technologiesUsed": "React, BootStrap, SCSS and Version Control with Github",
 		"available": true,
