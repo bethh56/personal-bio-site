@@ -1,5 +1,14 @@
 {
 	"project1": {
+		"title": "Top 100 Albums",
+		"screenshot": "",
+		"description": "This project will allow the user to login and keep track of albums they have listened to from the Rolling Stone Top 100 Albums of All Time.",
+		"technologiesUsed": "React, BootStrap, SCSS and Version Control with Github",
+		"available": true,
+		"url": "https://top100albums-3a9a6.web.app/",
+		"githubUrl": "https://github.com/bethh56/top100-albums-capstone"
+	},
+	"project2": {
 		"title": "Sorting Hat",
 		"screenshot": "https://raw.githubusercontent.com/bethh56/sorting-hat/master/screenshots/sortingHat2.JPG",
 		"description": "This project lets you enter your name into a form and get sorted into a Hogwarts House. ",
@@ -8,7 +17,7 @@
 		"url": "https://sortinghat-5f2bf.web.app/",
 		"githubUrl": "https://github.com/bethh56/sorting-hat"
 	},
-	"project2": {
+	"project3": {
 		"title": "Bear Watcher",
 		"screenshot": "https://raw.githubusercontent.com/bethh56/bear-watcher/master/screenshots/Screenshot%20(20).png",
 		"description": "This project is my first project using modules.",
@@ -17,7 +26,7 @@
 		"url": "https://bear-watcher-8324e.web.app/",
 		"githubUrl": "https://github.com/bethh56/bear-watcher"
 	},
-	"project3": {
+	"project4": {
 		"title": "Renaissance Faire",
 		"screenshot": "https://raw.githubusercontent.com/bethh56/personal-bio-site/master/screenshots/ren%20faire.JPG",
 		"description": "This project was done as a group using CRUD to view everything avaliable at a Renaissance Faire",
@@ -26,7 +35,7 @@
 		"url": "https://nutshell-sithlords.web.app/",
 		"githubUrl": "https://github.com/bethh56/nutshell-sithlords"
 	},
-	"project4": {
+	"project5": {
 		"title": "Mushroom Picker",
 		"screenshot": "https://raw.githubusercontent.com/bethh56/mushroom-picker/master/screenshots/Capture.JPG",
 		"description": "This was my first project using React",
@@ -35,7 +44,7 @@
 		"url": "https://mushroompicker-e6265.web.app/",
 		"githubUrl": "https://github.com/bethh56/mushroom-picker"
 	},
-	"project5": {
+	"project6": {
 		"title": "Sports Roster",
 		"screenshot": "https://raw.githubusercontent.com/bethh56/sports-roster/master/screenshots/sportsRosterLoggedInView.JPG",
 		"description": "This is my first project with React using full CRUD with Firebase",
